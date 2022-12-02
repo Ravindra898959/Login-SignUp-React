@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.forms {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.login {
+  background-color: aqua;
+  width: 100%;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  margin-top: 10px;
+  color: black;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login input {
+  border: 1px #ccc;
+  border-radius: 5px;
+  margin: 8px 0;
+  padding: 10px 10px;
+}
+
+.signup {
+  width: 100%;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  margin-top: 10px;
+  color: black;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signup input {
+  border: 1px #ccc;
+  border-radius: 5px;
+  margin: 8px 0;
+  padding: 10px 10px;
+}
+input[type="submit"]:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+input[type="submit"] {
+  width: 100%;
+  background-color: #ddd;
+  margin-top: 20px;
+}
+input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  color: white;
+}
+header {
+  background-color: skyblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 5px 5px 10px -1px rgba(0, 0, 0, 0.5);
+}
+/* header img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+} */
+ul {
+  display: flex;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: block;
+  padding: 1rem;
+}
+link {
+  text-decoration: none;
+}
+
+.active {
+  color: red;
+}
+.header-content {
+  /* border: 5px solid red; */
+  margin: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-main {
+  margin: 2rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 2px solid green; */
+  align-items: center;
+}
+.header-content button {
+  margin-top: 2rem;
+  padding: 0.5rem;
+  font-size: larger;
+  border-radius: 0.3em;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.header-content button:visited {
+  background-color: white;
+  color: black;
+}
+
+.container {
+  width: 200px;
+  border: 2px solid red;
+}
+
+.btn {
+  width: auto;
+}
+.home-modal {
+  text-align: center;
+}
+.main-modal {
+  border: 2px solid red;
+}
+.light-theme h1 {
+  color: black;
+}
+.light-theme button {
+  background-color: black;
+  color: white;
+}
+.dark-theme h1 {
+  color: #ccc;
+}
+.dark-theme button {
+  background-color: white;
+  color: black;
+}
+.dark-theme .header-content {
+  background-color: black;
+}
+.dark-theme {
+  color: aqua;
+  background-color: black;
+}
