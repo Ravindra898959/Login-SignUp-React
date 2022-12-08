@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import HeaderContent from "./Components/HeaderContent";
-// import Modal from "./Modal";
 
 const Home = () => {
   // const [modal, setModal] = useState(false);

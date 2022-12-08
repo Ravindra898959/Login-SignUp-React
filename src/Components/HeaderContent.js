@@ -7,7 +7,7 @@ const HeaderContent = () => {
   const toggleTheme = () => {
     if (theme === "dark-theme") {
       setTheme("light-theme");
-    } else {
+    } else {  
       setTheme("dark-theme");
     }
   };
@@ -19,7 +19,10 @@ const HeaderContent = () => {
   return (
     <>
       <Header />
-      <div className="header-content">
+      <div
+        className="header-content"
+        style={{ border: "2px solid red", height: "100vh" }}
+      >
         <div className="header-main">
           <h1>You Can Explore More Here</h1>
           <button onClick={toggleTheme}>Toggle Theme</button>

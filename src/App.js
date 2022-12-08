@@ -8,7 +8,7 @@ import Errorpage from "./Errorpage";
 import HeaderContent from "./Components/HeaderContent";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Header from "./Components/Header";
+// import Header from "./Components/Header";
 
 const App = () => {
   return (
