@@ -72,11 +72,6 @@ header {
   align-items: center;
   box-shadow: 5px 5px 10px -1px rgba(0, 0, 0, 0.5);
 }
-/* header img {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-} */
 ul {
   display: flex;
   text-align: center;
@@ -96,7 +91,6 @@ link {
   color: red;
 }
 .header-content {
-  /* border: 5px solid red; */
   margin: 2rem;
   display: flex;
   justify-content: space-around;
@@ -127,7 +121,6 @@ link {
 
 .container {
   width: 200px;
-  border: 2px solid red;
 }
 
 .btn {
@@ -135,9 +128,6 @@ link {
 }
 .home-modal {
   text-align: center;
-}
-.main-modal {
-  border: 2px solid red;
 }
 .light-theme h1 {
   color: black;
